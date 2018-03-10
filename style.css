@@ -1,0 +1,6 @@
+* {
+	all: unset!important;
+		width: auto!important;
+	height: auto!important;
+	background: transparent !important;
+}

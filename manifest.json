@@ -1,0 +1,17 @@
+{
+  "name": "Nocss",
+  "description": "Remove any css inside the page",
+  "version": "0.1",
+  "incognito": "split",
+  "browser_action": {
+    "default_title": "Remove css"
+  },
+  "permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+	"persistent": true
+  },
+  "manifest_version": 2
+}
